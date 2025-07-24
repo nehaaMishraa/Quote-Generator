@@ -1,8 +1,8 @@
 /* Global styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
+    background-color: rgb(27, 84, 86);
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -11,16 +11,21 @@ body {
 
 /* Styling the container */
 .container {
-    background-color: white;
+    height: 200px;
+    width: 800px;
+    overflow: auto;
+    background-color: #355f7b ;
+    border: 1px solid;
     padding: 30px;
+    margin: 30px auto;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(202, 19, 19, 0.1);
 }
 
 /* Styling the button */
 button {
-    background-color: #4CAF50;
+    background-color: #4c6daf;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,13 +38,19 @@ button {
 
 /* Button hover effect */
 button:hover {
-    background-color: #45a049;
+    background-color: #7f850d;
 }
 
 /* Styling the quote */
 #quote {
     font-size: 18px;
     font-style: italic;
-    color: #555;
+    color: #01221f;
+    margin-bottom: 20px;
+}
+#author {
+    font-size: 18px;
+    font-style: italic;
+    color: #01221f;
     margin-bottom: 20px;
 }
